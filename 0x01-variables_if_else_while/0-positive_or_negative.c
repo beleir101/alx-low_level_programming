@@ -1,5 +1,6 @@
-nclude <stdlib.h>
+#include <stdlib.h>
 
+#include <stdio.h>
 #include <time.h>
 
 /* more headers goes there */
@@ -31,7 +32,7 @@ int main(void)
 		else
 		{
 			printf("%d", n);
-			printf("is negative")
+			printf("is negative");
 
 
 	
