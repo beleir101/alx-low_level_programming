@@ -6,7 +6,12 @@
 #include <stdio.h>
 
 
-/* betty style doc for function main goes there */
+/* betty style doc for function main goes there
+ * main function
+ * then used if and else ifs to test the number
+ * then printed out the result
+  */
+
 /* Used if and else if statments to check if the number is negative or not */
 
 int main(void)
