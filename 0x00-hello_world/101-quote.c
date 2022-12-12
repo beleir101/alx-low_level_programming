@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <std;ib.h>
+#include <stdlib.h>
 /**
  * main - Entry point
  * Return: Always 1 
