@@ -2,10 +2,11 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-/** _islower - cecks if its lowercase
+/** 
+ * _islower - cecks if its lowercase
  * @c: a character checked to be lower case or not
  *
- * Description: using stdliib check lower case
+ * Description: using stdliib check lower case or not
  *
  * Return: 1 on success
  */
@@ -22,6 +23,6 @@ int _islower(int c)
 			k = 1;
 		}
 	}
-	
+
 	return (k);
 }
