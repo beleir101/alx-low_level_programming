@@ -12,7 +12,7 @@ int main(void)
 	
 	return (0);
 }
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	char low;
 
@@ -20,7 +20,6 @@ int print_alphabet(void)
 	{
 		_putchar(low);
 	}
-	putchar('\n');
+	_putchar('\n');
 
-	return (0);
 }
