@@ -3,7 +3,7 @@
 /**
  * main - check code
  *
- * print_alphabet - prints alphabet
+ * print_alphabet - prints alphabets takes no argument
  *
  * Return: Always 0
  */
