@@ -12,7 +12,7 @@
 
 int _islower(int c)
 {
-	int k = 0:
+	int k = 0;
 	char i;
 
 	for (i = 'a'; i <= 'z'; i++)
