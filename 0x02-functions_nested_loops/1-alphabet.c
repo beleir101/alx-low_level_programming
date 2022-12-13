@@ -1,11 +1,12 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * main - check code
- *
  * print_alphabet - prints alphabets takes no argument
+ * @void: doesn't have any parameters
  *
- * Return: Always 0
+ * Description: printing alphabet
+ *
+ * Return: nothing
  */
 void print_alphabet(void)
 {
