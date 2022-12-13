@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 #include <unistd.h>
+#include <stio.h>
 
 /** _islower - cecks if its lowercase
  * @c: a character checked to be lower case or not
@@ -14,7 +15,7 @@ int _islower(int c)
 {
 	int k = islower(c);
 
-	if (k == o)
+	if (k == 0)
 	{
 		return (1);
 	}
