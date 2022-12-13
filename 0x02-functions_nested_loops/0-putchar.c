@@ -4,14 +4,9 @@
 
 
 /**
+ * main - entry point
  *
- *  _putchar - writes the character c to stdo
- *
- *  
- *
- * Return: On success 1.
- *
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: On success 0
  *
  */
 
@@ -24,6 +19,7 @@ int main(void)
 	{
 		_putchar(put[i]);
 	}
+	_putchar('\n')
 
 	return (0);
 }
