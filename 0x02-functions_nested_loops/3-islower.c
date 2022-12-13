@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-/** 
+/**
  * _islower - cecks if its lowercase
  * @c: a character checked to be lower case or not
  *
