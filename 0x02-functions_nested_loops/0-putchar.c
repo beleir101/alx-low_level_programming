@@ -19,7 +19,7 @@ int main(void)
 	{
 		_putchar(put[i]);
 	}
-	_putchar('\n')
+	_putchar('\n');
 
 	return (0);
 }
