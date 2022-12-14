@@ -31,7 +31,7 @@ int _isalpha(int c)
 			}
 			break;
 		}
-		break;
+
 	}
 
 	return (r);
