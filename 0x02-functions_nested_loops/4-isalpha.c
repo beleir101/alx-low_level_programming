@@ -20,7 +20,7 @@ int _isalpha(int c)
 		{
 			r = 1;
 		}
-		else 
+		else
 		{
 			for (a = 'A'; a <= 'Z'; a++)
 			{
@@ -29,6 +29,7 @@ int _isalpha(int c)
 					r = 1;
 				}
 			}
+			break;
 		}
 		break;
 	}
