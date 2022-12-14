@@ -16,21 +16,13 @@ int _isalpha(int c)
 
 	for (a = 'a'; a <= 'z'; a++)
 	{
-		if (c == a)
+		for (d = 'A'; d <= 'Z'; d++)
 		{
-			r = 1;
-		}
-		else
-		{
-			for (d = 'A'; d <= 'Z'; d++)
+			if (c == a || c == d)
 			{
-				if (c == a)
-				{
-					r = 1;
-				}
+				r = 1;
 			}
 		}
-
 	}
 
 	return (r);
