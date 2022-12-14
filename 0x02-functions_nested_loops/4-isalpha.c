@@ -19,6 +19,7 @@ int _isalpha(int c)
 		if (c == a)
 		{
 			r = 1;
+			continue;
 		}
 		else 
 		{
@@ -27,6 +28,7 @@ int _isalpha(int c)
 				if (c == a)
 				{
 					r = 1;
+					continue;
 				}
 			}
 		}
