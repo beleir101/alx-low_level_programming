@@ -11,13 +11,14 @@
 int _isdigit(int c)
 {
 	int p = 0;
-	int d;
+	char d;
 
-	for (d = 0; d <= 9; d++)
+	for (d = '0'; d <= '9'; d++)
 	{
 		if (c == d)
 		{
 			p = 1;
+			break;
 		}
 	}
 
