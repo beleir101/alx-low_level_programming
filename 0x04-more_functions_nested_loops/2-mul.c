@@ -8,7 +8,7 @@
  *
  * Description: This function will return product of two numbers
  *
- * Return: Always 0
+ * Return: Always product
  */
 
 int mul(int a, int b)
@@ -16,7 +16,6 @@ int mul(int a, int b)
 	int prod;
 
 	prod = a * b;
-	_putchar(prod);
 
-	return (0);
+	return (prod);
 }
