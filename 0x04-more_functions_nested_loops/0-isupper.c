@@ -10,7 +10,7 @@
  * Return: Always 1 on success
  */
 
-int _isupper(int c);
+int _isupper(int c)
 {
 	int p = 0;
 	char z;
