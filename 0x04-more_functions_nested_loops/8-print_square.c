@@ -10,7 +10,7 @@
  * Return: nothing
  */
 
-void print_square(int size);
+void print_square(int size)
 {
 	int j, p;
 
@@ -18,12 +18,15 @@ void print_square(int size);
 	{
 		_putchar('\n');
 	}
-	for (j = 0; j < size; j++)
+	else
 	{
-		for (p = 0; p < size; p++)
+		for (j = 0; j < size; j++)
 		{
-			_putchar('#');
+			for (p = 0; p < size; p++)
+			{
+				_putchar('#');
+			}
+				_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
