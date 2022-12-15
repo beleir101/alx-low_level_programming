@@ -11,7 +11,7 @@
 
 void print_numbers(void)
 {
-	char k;
+	int k;
 
 	for (k = '0'; k <= 9; k++)
 	{
