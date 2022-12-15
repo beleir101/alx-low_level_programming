@@ -1,31 +1,24 @@
 #include "main.h"
 
 /**
- * print_square - main func
- * @size: size
- *
- * Descriptio: feelind died
- *
- * Return: nothing
+ * print_square - Write a function that prints a square,
+ * followed by a new line.
+ * @size: An input integer
+ * Return: Always 0
  */
-
 void print_square(int size)
 {
-	int j, p;
+	int i, j;
 
-	if (size <= 0)
+	if (size > 0)
 	{
-		_putchar('\n');
-	}
-	else
-	{
-		for (j = 0; j < size; j++)
+		for (i = 0; i < size; i++)
 		{
-			for (p = 0; p < size; p++)
-			{
+			for (j = 0; j < size; j++)
 				_putchar('#');
-			}
 			_putchar('\n');
 		}
 	}
+	else
+		_putchar('\n');
 }
