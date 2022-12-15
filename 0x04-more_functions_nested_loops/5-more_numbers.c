@@ -1,34 +1,23 @@
 #include "main.h"
-#include <unistd.h>
 
 /**
- * more_numbers - main func
- *
- * Description: prints number from 0-9
- *
- * Return: Nothing
+ * more_numbers - a function that prints 10 times the numbers, from 0 to 14,
+ * followed by a new line.
+ * Return: Always 0
  */
-
 void more_numbers(void)
 {
-	int k;
-	int p;
+	int i, j = 0;
 
-	for (p = '0'; p <= '9'; p++)
+	for (; j < 10; j++)
 	{
-		for (k = '0'; k <= '14'; k++)
+		for (i = 0; i <= 14; i++)
 		{
-			if (k < 9)
-			{
-				_putchar(k / 10 + '0');
-			}
-			else
-			{
-				_putchar(k);
-			}
+			if (i > 9)
+				_putchar(i / 10 + '0');
+
+			_putchar(i % 10 + '0');
 		}
 		_putchar('\n');
 	}
-	_putchar('\n');
-
 }
