@@ -20,13 +20,13 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		for (l = 0; l <= n; l++)
+		for (l = 0; l < n; l++)
 		{
 
-			while (p < n)
+			while (p <= l)
 			{
 				p = 0;
-				if ((p + 1) == 1)
+				if (p == 1)
 				{
 					_putchar('\\');
 					_putchar('\n');
