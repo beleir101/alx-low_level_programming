@@ -18,7 +18,7 @@ void rev_string(char *s)
 	{
 		i++;
 	}
-	while (p < len--)
+	while (p < i--)
 	{
 		pan = s[p];
 		s[p++] = s[i];
