@@ -1,6 +1,6 @@
 #include "main.h"
 
-/** 
+/**
  * reset_to_98 - check func
  * @*n: argument that accepts a poiner
  *
