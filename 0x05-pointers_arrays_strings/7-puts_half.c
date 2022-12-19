@@ -26,16 +26,17 @@ void puts_half(char *str)
 		{
 			_putchar(str[k]);
 		}
+		_putchar('\n');
 	}
 	else
 	{
-		k = (p - 1) / 2;
+		k = (p + 1) / 2;
 		p -= 1;
 		for (; k < p; k++)
 		{
 			_putchar(str[k]);
 		}
+		
+		_putchar('\n');
 	}
-
-	_putchar('\n');
 }
