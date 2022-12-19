@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - check func
- * @*n: argument that accepts a poiner
+ * @n: argument that accepts a poiner
  *
  * Description: This function will reset everything to 98
  * Return: Nothing
