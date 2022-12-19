@@ -23,4 +23,5 @@ void rev_string(char *s)
 		pan = s[p];
 		s[p++] = s[i];
 		s[i] = pan;
+	}
 }
