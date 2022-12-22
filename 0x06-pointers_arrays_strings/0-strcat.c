@@ -12,25 +12,15 @@
 char *_strcat(char *dest, char *src)
 {
 	char *lis;
-	int i = 0, j = 0, k = 0;
 
-	while ((dest[i] != 0) || (src[j] != 0))
+	lis = dest;
+	while (*dest != 0)
 	{
-		if (dest[i] != 0)
-		{
-			lis[i] = dest[i];
-			i++;
-		}
-		else if (dest[i] == 0)
-		{
-			lis[i + j] = src[j];
-			j++;
-		}
+		dest++;
 	}
-	while (lis[k] != 0)
+	while (*src != 0)
 	{
-		dest[k] = lis[k];
-		k++;
+		*dest++ = *src++;
 	}
 
 	return (lis);
