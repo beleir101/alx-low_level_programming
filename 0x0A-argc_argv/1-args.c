@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
 
 /**
  * main - main func
@@ -13,12 +12,9 @@
 
 int main(int argc, char *argv[])
 {
-	if (argc > 0)
+	if (argv[0])
 	{
 		printf("%d\n", argc - 1);
 	}
-	else
-		printf("0");
-
 	return (0);
 }
