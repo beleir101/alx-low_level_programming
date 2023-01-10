@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-#include <stdlib>
+#include <stdlib.h>
 
 /**
  * str_concat - main func
