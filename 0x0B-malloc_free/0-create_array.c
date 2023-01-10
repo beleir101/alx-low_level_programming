@@ -30,7 +30,6 @@ char *create_array(unsigned int size, char c)
 	for (; i < size; i++)
 	{
 		*(p + i) = c;
-		i++;
 	}
 	return (p);
 
