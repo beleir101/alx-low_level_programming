@@ -18,7 +18,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	va_list args;
 	int x;
 
-	if (n == NULL || separator == NULL)
+	if (separator == NULL)
 		return;
 
 	va_start(args, n);
